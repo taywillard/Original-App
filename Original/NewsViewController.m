@@ -1,18 +1,18 @@
 //
-//  ScheduleViewController.m
+//  NewsViewController.m
 //  Original
 //
-//  Created by Taylor Willard on 3/9/13.
+//  Created by Taylor Willard on 5/5/13.
 //  Copyright (c) 2013 webstudent. All rights reserved.
 //
 
-#import "ScheduleViewController.h"
+#import "NewsViewController.h"
 
-@interface ScheduleViewController ()
+@interface NewsViewController ()
 
 @end
 
-@implementation ScheduleViewController
+@implementation NewsViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
