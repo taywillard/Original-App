@@ -9,5 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface FridayViewController : UIViewController
+{
+    int *drawer1;
+    IBOutlet UIButton *friDropdown;
+    IBOutlet UIScrollView *scrollView;
+}
+
+- (IBAction)friDropdown:(id)sender;
 
 @end

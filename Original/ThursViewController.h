@@ -9,5 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ThursViewController : UIViewController
+{
+    int *drawer1;
+    IBOutlet UIButton *thurDropdown;
+    IBOutlet UIScrollView *scrollView;
+}
+
+- (IBAction)thurDropdown:(id)sender;
 
 @end

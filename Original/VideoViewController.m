@@ -27,6 +27,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    NSURL *videoURL = [NSURL URLWithString:@"http://vimeo.com/64451314"];
+    NSURL *videoRequest = [NSURLRequest requestWithURL:videoURL];
+    [video loadRequest:videoRequest];
 }
 
 - (void)didReceiveMemoryWarning

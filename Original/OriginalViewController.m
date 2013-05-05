@@ -26,4 +26,21 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)speakers:(id)sender {
+}
+
+- (IBAction)schedule:(id)sender {
+}
+
+- (IBAction)map:(id)sender {
+}
+
+- (IBAction)connect:(id)sender {
+}
+
+- (IBAction)notes:(id)sender {
+}
+
+- (IBAction)video:(id)sender {
+}
 @end

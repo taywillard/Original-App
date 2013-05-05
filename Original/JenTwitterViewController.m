@@ -27,6 +27,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    NSURL *jenTwitterURL = [NSURL URLWithString:@"https://twitter.com/JenDeWeerdt"];
+    NSURL *jenRequest = [NSURLRequest requestWithURL:jenTwitterURL];
+    [jenTwitter loadRequest:jenRequest];
 }
 
 - (void)didReceiveMemoryWarning

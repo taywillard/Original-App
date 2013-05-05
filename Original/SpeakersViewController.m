@@ -25,6 +25,7 @@
     return self;
 }
 
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -37,6 +38,22 @@
     
     //position of dropdown button
     dropdown.frame=CGRectMake(0,-18,320,76);
+    mainPic.frame=CGRectMake(34, 61, 253, 346);
+
+    drawer2 = 0;
+    scrollView2.frame=CGRectMake(0, 460, 320, 417);
+    [scrollView2 setContentSize:CGSizeMake(320, 417)];
+    more.frame=CGRectMake(94, 416, 133, 44);
+    mainPic.frame=CGRectMake(34, 61, 253, 346);
+    
+}
+
+- (void)dropdownClicked:(id)sender
+{
+if (dropdown.selected)
+    {dropdown.selected=NO;}
+    else
+        {dropdown.selected=YES;}
 }
 
 - (void)didReceiveMemoryWarning
@@ -60,8 +77,12 @@
     
     scrollView.frame = CGRectMake(0, -8, 320, 78);
     dropdown.frame = CGRectMake(0, 70, 320, 76);
+    mainPic.frame=CGRectMake(34, 150, 253, 346);
+    more.frame = CGRectMake(94, 499, 133, 44);
     
     [self.view bringSubviewToFront:(scrollView)];
+    [self.view bringSubviewToFront:(dropdown)];
+        
     
     [UIView commitAnimations];
 }
@@ -79,8 +100,11 @@
     
     scrollView.frame = CGRectMake(0, -96, 320, 78);
     dropdown.frame = CGRectMake(0, -18, 320, 76);
+    mainPic.frame=CGRectMake(34, 61, 253, 346);
+    more.frame = CGRectMake(94, 416, 133, 44);
     
     [self.view bringSubviewToFront:(scrollView)];
+    [self.view bringSubviewToFront:(dropdown)];
 }
 
 }
@@ -89,4 +113,87 @@
     
 }
 
+- (IBAction)more:(id)sender
+{
+    if (drawer2 == 0) {
+        drawer2 = 1;
+        [UIView beginAnimations:(nil) context:(nil)];
+        [UIView setAnimationDuration:(.5)];
+        [UIView setAnimationDelay:(0)];
+        [UIView setAnimationCurve:UIViewAnimationCurveEaseOut];
+        
+        [UIButton beginAnimations:(nil) context:(nil)];
+        [UIButton setAnimationDuration:(.5)];
+        [UIButton setAnimationDelay:(0)];
+        [UIButton setAnimationCurve:UIViewAnimationCurveEaseOut];
+        
+        scrollView2.frame = CGRectMake(0, 55, 320, 417);
+        more.frame = CGRectMake(94, 460, 133, 44);
+        mainPic.frame=CGRectMake(34, -311, 253, 346);
+        
+        
+        [UIView commitAnimations];
+    }
+    else {
+        drawer2 = 0;
+        [UIView beginAnimations:(nil) context:(nil)];
+        [UIView setAnimationDuration:(.5)];
+        [UIView setAnimationDelay:(0)];
+        [UIView setAnimationCurve:UIViewAnimationCurveEaseOut];
+        
+        [UIButton beginAnimations:(nil) context:(nil)];
+        [UIButton setAnimationDuration:(.5)];
+        [UIButton setAnimationDelay:(0)];
+        [UIButton setAnimationCurve:UIViewAnimationCurveEaseOut];
+        
+        scrollView2.frame=CGRectMake(0, 460, 320, 417);
+        more.frame=CGRectMake(94, 416, 133, 44);
+        mainPic.frame=CGRectMake(34, 61, 253, 346);
+        
+}
+    
+}
+
+- (IBAction)less:(id)sender
+{
+    if (drawer2 == 0) {
+        drawer2 = 1;
+        [UIView beginAnimations:(nil) context:(nil)];
+        [UIView setAnimationDuration:(.5)];
+        [UIView setAnimationDelay:(0)];
+        [UIView setAnimationCurve:UIViewAnimationCurveEaseOut];
+        
+        [UIButton beginAnimations:(nil) context:(nil)];
+        [UIButton setAnimationDuration:(.5)];
+        [UIButton setAnimationDelay:(0)];
+        [UIButton setAnimationCurve:UIViewAnimationCurveEaseOut];
+        
+        scrollView2.frame = CGRectMake(0, 55, 320, 417);
+        more.frame = CGRectMake(94, 13, 133, 44);
+        mainPic.frame=CGRectMake(34, -311, 253, 346);
+        
+        
+        [UIView commitAnimations];
+    }
+    else {
+        drawer2 = 0;
+        [UIView beginAnimations:(nil) context:(nil)];
+        [UIView setAnimationDuration:(.5)];
+        [UIView setAnimationDelay:(0)];
+        [UIView setAnimationCurve:UIViewAnimationCurveEaseOut];
+        
+        [UIButton beginAnimations:(nil) context:(nil)];
+        [UIButton setAnimationDuration:(.5)];
+        [UIButton setAnimationDelay:(0)];
+        [UIButton setAnimationCurve:UIViewAnimationCurveEaseOut];
+        
+        scrollView2.frame=CGRectMake(0, 460, 320, 417);
+        more.frame=CGRectMake(94, 416, 133, 44);
+        mainPic.frame=CGRectMake(34, 61, 253, 346);
+        
+}
+
+}
+
 @end
+    

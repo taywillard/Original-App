@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 
 @interface MapViewController : UIViewController
+{
+    IBOutlet MKMapView *map;
+    int *drawer1;
+    int *drawer2;
+    IBOutlet UIButton *mapDropdown;
+    IBOutlet UIScrollView *scrollView;
+}
+
+- (IBAction)mapDropdown:(id)sender;
+@property (strong, nonatomic) IBOutlet MKMapView *map;
 
 @end

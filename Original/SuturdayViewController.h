@@ -9,5 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface SuturdayViewController : UIViewController
+{
+    int *drawer1;
+    IBOutlet UIButton *satDropdown;
+    IBOutlet UIScrollView *scrollView;
+}
+
+- (IBAction)satDropdown:(id)sender;
 
 @end

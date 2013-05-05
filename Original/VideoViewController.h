@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface VideoViewController : UIViewController
+{
+    IBOutlet UIWebView *video;
+}
 
 @end
