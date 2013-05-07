@@ -27,6 +27,10 @@
 		232B67FB173714EE000B48E1 /* TwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 232B67FA173714EE000B48E1 /* TwitterViewController.m */; };
 		232B67FE17371507000B48E1 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 232B67FD17371507000B48E1 /* NewsViewController.m */; };
 		232B68011737151C000B48E1 /* BlogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 232B68001737151C000B48E1 /* BlogViewController.m */; };
+		232B68061737FDAF000B48E1 /* connect btn small (push).png in Resources */ = {isa = PBXBuildFile; fileRef = 232B68021737FDAF000B48E1 /* connect btn small (push).png */; };
+		232B68071737FDAF000B48E1 /* connect btn small.png in Resources */ = {isa = PBXBuildFile; fileRef = 232B68031737FDAF000B48E1 /* connect btn small.png */; };
+		232B68081737FDAF000B48E1 /* speaker btn small (push).png in Resources */ = {isa = PBXBuildFile; fileRef = 232B68041737FDAF000B48E1 /* speaker btn small (push).png */; };
+		232B68091737FDAF000B48E1 /* speaker btn small.png in Resources */ = {isa = PBXBuildFile; fileRef = 232B68051737FDAF000B48E1 /* speaker btn small.png */; };
 		23617F56171CDB87008B4F1B /* App_retna.png in Resources */ = {isa = PBXBuildFile; fileRef = 23617F55171CDB87008B4F1B /* App_retna.png */; };
 		23617F58171CDBA6008B4F1B /* App_retna.png in Resources */ = {isa = PBXBuildFile; fileRef = 23617F57171CDBA6008B4F1B /* App_retna.png */; };
 		23617F5E171D097E008B4F1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F3F45516E7FF0400A2472E /* UIKit.framework */; };
@@ -96,6 +100,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		232B680E173832C6000B48E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 232B680A173832C6000B48E1 /* Notes.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C5AF797E161B4C5E008094EB;
+			remoteInfo = Notes;
+		};
+		232B6810173832FC000B48E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 232B680A173832C6000B48E1 /* Notes.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C5AF797D161B4C5E008094EB;
+			remoteInfo = Notes;
+		};
 		23F3F47D16E7FF0500A2472E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 23F3F44A16E7FF0400A2472E /* Project object */;
@@ -133,6 +151,11 @@
 		232B67FD17371507000B48E1 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
 		232B67FF1737151C000B48E1 /* BlogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogViewController.h; sourceTree = "<group>"; };
 		232B68001737151C000B48E1 /* BlogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogViewController.m; sourceTree = "<group>"; };
+		232B68021737FDAF000B48E1 /* connect btn small (push).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "connect btn small (push).png"; path = "../../images/connect btn small (push).png"; sourceTree = "<group>"; };
+		232B68031737FDAF000B48E1 /* connect btn small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "connect btn small.png"; path = "../../images/connect btn small.png"; sourceTree = "<group>"; };
+		232B68041737FDAF000B48E1 /* speaker btn small (push).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "speaker btn small (push).png"; path = "../../images/speaker btn small (push).png"; sourceTree = "<group>"; };
+		232B68051737FDAF000B48E1 /* speaker btn small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "speaker btn small.png"; path = "../../images/speaker btn small.png"; sourceTree = "<group>"; };
+		232B680A173832C6000B48E1 /* Notes.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Notes.xcodeproj; path = Notes/Notes.xcodeproj; sourceTree = "<group>"; };
 		23617F55171CDB87008B4F1B /* App_retna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = App_retna.png; path = ../../images/App_retna.png; sourceTree = "<group>"; };
 		23617F57171CDBA6008B4F1B /* App_retna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = App_retna.png; sourceTree = "<group>"; };
 		23617F5D171D097E008B4F1B /* notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -254,6 +277,14 @@
 			name = Video;
 			sourceTree = "<group>";
 		};
+		232B680B173832C6000B48E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				232B680F173832C6000B48E1 /* Notes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		23E31882170130F5008D95C9 /* Map */ = {
 			isa = PBXGroup;
 			children = (
@@ -345,6 +376,7 @@
 		23F3F44916E7FF0400A2472E = {
 			isa = PBXGroup;
 			children = (
+				232B680A173832C6000B48E1 /* Notes.xcodeproj */,
 				23617F57171CDBA6008B4F1B /* App_retna.png */,
 				23F3F49016E812E200A2472E /* Images */,
 				23F3F45B16E7FF0400A2472E /* Original */,
@@ -440,6 +472,10 @@
 				232AE2C616F0461F0095B51F /* connect header.png */,
 				23EE856C16E88DF000A022BD /* map header.png */,
 				232B67EA1736FE67000B48E1 /* thurs_sched.png */,
+				232B68021737FDAF000B48E1 /* connect btn small (push).png */,
+				232B68031737FDAF000B48E1 /* connect btn small.png */,
+				232B68041737FDAF000B48E1 /* speaker btn small (push).png */,
+				232B68051737FDAF000B48E1 /* speaker btn small.png */,
 				2392EFE916F283F10057B958 /* - button.png */,
 				232B67EE17370310000B48E1 /* sat_sched.png */,
 				2392EFE716F281F80057B958 /* speaker detail bg.png */,
@@ -479,6 +515,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				232B6811173832FC000B48E1 /* PBXTargetDependency */,
 			);
 			name = notes;
 			productName = notes;
@@ -541,6 +578,12 @@
 			mainGroup = 23F3F44916E7FF0400A2472E;
 			productRefGroup = 23F3F45316E7FF0400A2472E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 232B680B173832C6000B48E1 /* Products */;
+					ProjectRef = 232B680A173832C6000B48E1 /* Notes.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				23F3F45116E7FF0400A2472E /* Original */,
@@ -549,6 +592,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		232B680F173832C6000B48E1 /* Notes.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Notes.app;
+			remoteRef = 232B680E173832C6000B48E1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		23617F5B171D097E008B4F1B /* Resources */ = {
@@ -620,6 +673,10 @@
 				232B67EB1736FE67000B48E1 /* thurs_sched.png in Resources */,
 				232B67ED173701AA000B48E1 /* friday_sched.png in Resources */,
 				232B67EF17370310000B48E1 /* sat_sched.png in Resources */,
+				232B68061737FDAF000B48E1 /* connect btn small (push).png in Resources */,
+				232B68071737FDAF000B48E1 /* connect btn small.png in Resources */,
+				232B68081737FDAF000B48E1 /* speaker btn small (push).png in Resources */,
+				232B68091737FDAF000B48E1 /* speaker btn small.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -689,6 +746,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		232B6811173832FC000B48E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Notes;
+			targetProxy = 232B6810173832FC000B48E1 /* PBXContainerItemProxy */;
+		};
 		23F3F47E16E7FF0500A2472E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 23F3F45116E7FF0400A2472E /* Original */;

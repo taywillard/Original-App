@@ -9,5 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface BlogViewController : UIViewController
+{
+    int *drawer1;
+    IBOutlet UIButton *connectDropdown;
+    IBOutlet UIScrollView *scrollView;
+}
+
+- (IBAction)connectDropdown:(id)sender;
 
 @end

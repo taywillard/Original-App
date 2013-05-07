@@ -9,5 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface TwitterViewController : UIViewController
+{
+    int *drawer1;
+    IBOutlet UIButton *connectDropdown;
+    IBOutlet UIScrollView *scrollView;
+}
+
+- (IBAction)connectDropdown:(id)sender;
 
 @end
